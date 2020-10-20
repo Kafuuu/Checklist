@@ -33,6 +33,8 @@ Nmap
 
 burp suite
 
+gobuster
+
 method:
 
 XSS
