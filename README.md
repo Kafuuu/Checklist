@@ -41,7 +41,7 @@ XSS
 
 XES
 
-SQL injection
+SQL injection (' or 1--)
 
 robots.txt
 
