@@ -41,10 +41,11 @@ XSS
 
 XES
 
-SQL injection (' or 1--)
+SQL injection (' or 1--) / 
 
 robots.txt
 
+null byte %00 bypass
 
 ====================================
 
