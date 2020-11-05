@@ -64,6 +64,8 @@ zsteg
 
 winhex
 
+steghide
+
 
 For apk tools:
 
