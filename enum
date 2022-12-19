@@ -1,0 +1,62 @@
+nmap -sn <IP>
+
+
+
+nmap -p 1-65535 -T4 -A -v  <IP>
+
+
+
+nmap -sV -sC  <IP>
+
+
+
+nmap --script smb-vuln* -p 137,139,445 10.11.1.227
+
+
+
+nmap --script smb-enum*,smb-ls,smb-mbenum,smb-os-discovery,smb-s*,smb-vuln* -vv 192.168.1.1
+
+
+
+ssh -L 80:127.0.0.1:80 daniel@pandora.htb
+
+
+
+nmap --script vuln -p 137,139,445 10.11.1.227
+
+
+
+smbmap -H 10.11.1.31 -u guest
+
+
+
+smbclient -L //192.168.237.42 --option="client min protocol=core" -U ''
+
+
+
+smbclient -L //10.11.1.31/wwwroot -N
+
+
+
+mount -t cifs //10.10.10.134/backups /mnt -o user=,password=
+
+Mount disk
+
+rustscan 10.129.25.107 -t 500 -b 1500 -- -A
+
+
+
+Ping <IP>
+
+If ttl ~ 128 = windows
+If ttl ~ 63 = linux
+
+
+
+dig axfr @10.10.10.13 test.htb
+
+Zone tranfer
+
+snmpwalk -v 1 -c public panda.htb
+
+
